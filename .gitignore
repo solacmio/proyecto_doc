@@ -172,3 +172,26 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ----------------------------------
+# Exclusiones específicas del proyecto (Document Management System)
+# ----------------------------------
+
+# Entorno virtual
+venv/
+
+# Archivos de medios subidos por usuarios (PDFs, thumbnails)
+media/
+
+# Copias de seguridad de la base de datos
+backups/
+*.sql
+
+# Variables de entorno locales
+*.env
+
+# Archivos de configuración local de Django
+local_settings.py
+
+# Logs de la aplicación
+*.log
